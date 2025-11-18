@@ -1,7 +1,7 @@
 {
   "name": "verti",
-  "version": "2.0.0",
-  "source": "/home/p0c0/CodersLab/Verti/index.html",
+  "version": "1.0.0",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
