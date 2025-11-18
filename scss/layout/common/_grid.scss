@@ -1,0 +1,24 @@
+@use "../../variables/general";
+@use "sass:math";
+
+$columns: 12;
+$base: math.div(100%, $columns);
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@for $i from 1 through $columns {
+  .col-#{$i} {
+    width: 100%;
+    @media #{general.$desktop} {
+      width: $base * $i;
+    }
+  }
+}
