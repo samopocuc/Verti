@@ -1,0 +1,6 @@
+@use "../../variables/general";
+
+body {
+  font-family: general.$primary-font ;
+  ackground-color: general.$background-color;
+}
