@@ -1,0 +1,25 @@
+@use "../variables/general";
+
+@mixin mobile() {
+  @media #{general.$mobile} {
+    @content;
+  }
+}
+
+@mixin tablet-portrait() {
+  @media #{general.$tablet-portrait} {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media #{general.$tablet} {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media #{general.$desktop} {
+    @content;
+  }
+}

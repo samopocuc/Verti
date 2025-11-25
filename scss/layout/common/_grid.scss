@@ -1,22 +1,28 @@
 @use "../../variables/general";
+@use "../../mixins/mixins";
 @use "sass:math";
 
 $columns: 12;
 $base: math.div(100%, $columns);
 
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 1400px;
+  @include mixins.mobile() { width: 95%!important; }
+  @include mixins.tablet-portrait() { width: 90%; }
+  @include mixins.tablet() { width: 960px; }
+  @include mixins.desktop() { width: 1200px; }
   margin: 0 auto;
 
   .row {
     display: flex;
     flex-wrap: wrap;
+    @include mixins.tablet-portrait() { display: block; }
   }
 }
 @for $i from 1 through $columns {
   .col-#{$i} {
     width: 100%;
+    margin-bottom: 20px;
     @media #{general.$desktop} {
       width: $base * $i;
     }

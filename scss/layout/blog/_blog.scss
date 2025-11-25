@@ -1,0 +1,6 @@
+@use "../../mixins/mixins";
+.blog {
+  img { width: 100%; }
+  div.row { gap: 20px; flex-wrap: nowrap; }
+
+}

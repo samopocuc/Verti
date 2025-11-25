@@ -6,11 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="scss/main.scss">
 </head>
 <body>
-
+    <div class="container">
+        <!-- header -->
+        <header class="header">
+            <div class="header__brand"> <!-- brand -->
+                <p class="header__logo">Verti</p>
+            </div> <!-- e: brand -->
+            <nav class="header__nav"> <!-- header__nav -->
+                <ul class="header__nav-list">
+                    <li class="header__nav-list-item"><a href="#">Welcome</a></li>
+                    <li class="header__nav-list-item"><a href="#">Dropdown</a></li>
+                    <li class="header__nav-list-item"><a href="#">Left Sidebar</a></li>
+                    <li class="header__nav-list-item"><a href="#">Right Sidebar</a></li>
+                    <li class="header__nav-list-item"><a href="#">No Sidebar</a></li>
+                </ul>
+            </nav> <!-- e: header__nav -->
+        </header>
+        <!--e: header -->
+        <!-- banner -->
+        <div class="banner">
+            <div class="banner__content">
+                <h1 class="banner__content--title">Hi. This is Verti.</h1>
+                <p class="banner__content--text">It's a free responsive site template by HTML5 UP</p>
+            </div>
+            <div class="banner__buttons">
+                <a href="#" class="btn btn-large btn-primary ">OK lets's go <span class="fas fa-arrow-circle-right"></span></a>
+                <a href="#" class="btn btn-large btn-secondary">More info <span class="fas fa-question-circle"></span></a>
+            </div>
+        </div>
+        <!-- e: banner -->
+        <!-- blog -->
+        <div class="blog section">
+            <div class="row"> <!-- row -->
+                <div class="col-4">
+                    <img src="assets/pic01.jpg" alt="blog image">
+                    <div class="blog__column card">
+                        <h3 class="blog__column--title">Put something here</h3>
+                        <p class="blog__column--subtitle">Maybe here as well I think</p>
+                        <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+                    </div>
+                  </div>
+                <div class=" col-4">
+                    <img src="assets/pic02.jpg" alt="blog image">
+                    <div class="blog__column card">
+                        <h3 class="blog__column--title">Put something here</h3>
+                        <p class="blog__column--subtitle">Maybe here as well I think</p>
+                        <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="assets/pic03.jpg" alt="blog image">
+                    <div class="blog__column card">
+                        <h3 class="blog__column--title">Put something here</h3>
+                        <p class="blog__column--subtitle">Maybe here as well I think</p>
+                        <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+                    </div>
+                </div>
+            </div> <!-- e: row -->
+        </div>
+        <!-- e: blog -->
+    </div>
 </body>
 </html>

@@ -1,0 +1,26 @@
+@use "../../variables/general";
+@use "../../mixins/mixins";
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: general.$white-color;
+  padding: 4.5em;
+  gap: 20px;
+  box-shadow: rgba(0,0,0,0.05) 0 5px;
+  border-radius: 5px;
+  @include mixins.tablet-portrait() { flex-direction: column; }
+  .banner__content {
+    max-width: 50%;
+    @include mixins.tablet-portrait() { max-width: 100%; text-align: center; }
+    .banner__content--title { font-size: 3.5em; font-weight: 800;}
+    .banner__content--text { font-size: 2.75em; font-weight: 300; }
+  }
+  .banner__buttons {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 300px;
+    @include mixins.tablet-portrait() { max-width: 100%; width: 100%;}
+  }
+}

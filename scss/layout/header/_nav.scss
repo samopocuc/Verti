@@ -1,0 +1,16 @@
+@use '../../variables/general';
+
+.header__nav-list {
+  display: flex;
+  gap: 20px;
+  .header__nav-list-item a{
+    text-decoration: none;
+    color: general.$primary-color;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    &:hover {
+      background-color: general.$white-color;
+    }
+  }
+}

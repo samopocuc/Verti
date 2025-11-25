@@ -1,0 +1,9 @@
+use "./logo";
+@use "./nav";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 170px;
+}
