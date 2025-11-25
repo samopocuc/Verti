@@ -10,12 +10,7 @@
     flex-wrap: nowrap;
   }
   .blog__column { line-height: 2em;}
-  .blog__column--title {
-    font-size: 1.35em;
-    font-weight: 800;
-    line-height: 1.8em;
-    color: general.$primary-color;
-  }
+
   .blog__column--subtitle {
     margin-bottom: 30px;
     color: general.$text-color;

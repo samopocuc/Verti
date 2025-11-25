@@ -26,6 +26,11 @@
   @include mixins.tablet-portrait() { font-size: 1.7em; }
 }
 
+.btn-small {
+  width: fit-content;
+  padding: 15px 25px;
+}
+
 .btn-primary {
   background-color: general.$secondary-color;
   color: general.$white-color;

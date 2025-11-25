@@ -11,109 +11,149 @@
     <link rel="stylesheet" href="scss/main.scss">
 </head>
 <body>
+<!-- header -->
+<header class="header container">
+    <div class="header__brand"> <!-- brand -->
+        <p class="header__logo">Verti</p>
+    </div> <!-- e: brand -->
+    <nav class="header__nav"> <!-- header__nav -->
+        <ul class="header__nav-list">
+            <li class="header__nav-list-item"><a href="#">Welcome</a></li>
+            <li class="header__nav-list-item"><a href="#">Dropdown</a></li>
+            <li class="header__nav-list-item"><a href="#">Left Sidebar</a></li>
+            <li class="header__nav-list-item"><a href="#">Right Sidebar</a></li>
+            <li class="header__nav-list-item"><a href="#">No Sidebar</a></li>
+        </ul>
+    </nav> <!-- e: header__nav -->
+</header>
+<!--e: header -->
+<!-- banner -->
+<div class="banner container">
+    <div class="banner__content">
+        <h1 class="banner__content--title">Hi. This is Verti.</h1>
+        <p class="banner__content--text">It's a free responsive site template by HTML5 UP</p>
+    </div>
+    <div class="banner__buttons">
+        <a href="#" class="btn btn-large btn-primary ">OK lets's go <span class="fas fa-arrow-circle-right"></span></a>
+        <a href="#" class="btn btn-large btn-secondary">More info <span class="fas fa-question-circle"></span></a>
+    </div>
+</div>
+<!-- e: banner -->
+<!-- blog -->
+<div class="blog section container">
+    <div class="row"> <!-- row -->
+        <div class="col-4">
+            <img src="assets/pic01.jpg" alt="blog image">
+            <div class="blog__column card">
+                <h3 class="section__column--title">Put something here</h3>
+                <p class="blog__column--subtitle">Maybe here as well I think</p>
+                <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+            </div>
+        </div>
+        <div class=" col-4">
+            <img src="assets/pic02.jpg" alt="blog image">
+            <div class="blog__column card">
+                <h3 class="section__column--title">Put something here</h3>
+                <p class="blog__column--subtitle">Maybe here as well I think</p>
+                <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <img src="assets/pic03.jpg" alt="blog image">
+            <div class="blog__column card">
+                <h3 class="section__column--title">Put something here</h3>
+                <p class="blog__column--subtitle">Maybe here as well I think</p>
+                <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
+            </div>
+        </div>
+    </div> <!-- e: row -->
+</div>
+<!-- e: blog -->
+<!-- main -->
+<main class="main">
     <div class="container">
-        <!-- header -->
-        <header class="header">
-            <div class="header__brand"> <!-- brand -->
-                <p class="header__logo">Verti</p>
-            </div> <!-- e: brand -->
-            <nav class="header__nav"> <!-- header__nav -->
-                <ul class="header__nav-list">
-                    <li class="header__nav-list-item"><a href="#">Welcome</a></li>
-                    <li class="header__nav-list-item"><a href="#">Dropdown</a></li>
-                    <li class="header__nav-list-item"><a href="#">Left Sidebar</a></li>
-                    <li class="header__nav-list-item"><a href="#">Right Sidebar</a></li>
-                    <li class="header__nav-list-item"><a href="#">No Sidebar</a></li>
-                </ul>
-            </nav> <!-- e: header__nav -->
-        </header>
-        <!--e: header -->
-        <!-- banner -->
-        <div class="banner">
-            <div class="banner__content">
-                <h1 class="banner__content--title">Hi. This is Verti.</h1>
-                <p class="banner__content--text">It's a free responsive site template by HTML5 UP</p>
+        <div class="row">
+            <div class="col-4">
+                <h2 class="section__column--title">Interesting Stuff</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/pic04.jpg" alt="main image">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/pic05.jpg" alt="main image">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/pic06.jpg" alt="main image">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/pic07.jpg" alt="main image">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="#" class="btn btn-small btn-primary"><span class="fas fa-file-alt"></span> More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="banner__buttons">
-                <a href="#" class="btn btn-large btn-primary ">OK lets's go <span class="fas fa-arrow-circle-right"></span></a>
-                <a href="#" class="btn btn-large btn-secondary">More info <span class="fas fa-question-circle"></span></a>
+            <div class="col-8">
+                <h2 class="section__column--title">So what's this all about?</h2>
+                <p>This is Verti, a free and fully responsive HTML5 site template by <a href="#">HTML5 UP</a>. Verti is released under the Creative Commons Attribution license, so feel free to use it for any personal or commercial project you might have going on (just don't forget to credit us for the design!)</p>
+                <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus. Praesent semper bibendum ipsum, et tristique augue fringilla eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit amet phasellus quam turpis.</p>
+                <a href="#" class="btn btn-small btn-primary">Continue Reading <span class="fas fa-circle-arrow-right"></span></a>
             </div>
         </div>
-        <!-- e: banner -->
-        <!-- blog -->
-        <div class="blog section">
-            <div class="row"> <!-- row -->
-                <div class="col-4">
-                    <img src="assets/pic01.jpg" alt="blog image">
-                    <div class="blog__column card">
-                        <h3 class="blog__column--title">Put something here</h3>
-                        <p class="blog__column--subtitle">Maybe here as well I think</p>
-                        <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-                    </div>
-                  </div>
-                <div class=" col-4">
-                    <img src="assets/pic02.jpg" alt="blog image">
-                    <div class="blog__column card">
-                        <h3 class="blog__column--title">Put something here</h3>
-                        <p class="blog__column--subtitle">Maybe here as well I think</p>
-                        <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img src="assets/pic03.jpg" alt="blog image">
-                    <div class="blog__column card">
-                        <h3 class="blog__column--title">Put something here</h3>
-                        <p class="blog__column--subtitle">Maybe here as well I think</p>
-                        <p class="blog__column--content">Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-                    </div>
-                </div>
-            </div> <!-- e: row -->
+    </div>
+</main>
+<!-- e: main -->
+<!-- footer -->
+<footer class="footer container">
+    <div class="row">
+        <div class="col-3">
+            <h2 class="section__column--title">Random Stuff</h2>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
         </div>
-        <!-- e: blog -->
-        <footer class="footer">
-            <div class="row">
-                <div class="col-3">
-                    <h2 class="section__column--title">Random Stuff</h2>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                </div>
-                <div class="col-3">
-                    <h2 class="section__column--title">Random Stuff</h2>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                </div>
-                <div class="col-3">
-                    <h2 class="section__column--title">Random Stuff</h2>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                    <a class="footer__link" href="#">Lorem ipsum dolor</a>
-                </div>
-                <div class="col-3">
-                    <h2 class="section__column--title">Random Stuff</h2>
-                    <div class="footer__social">
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                    </div>
-                    <p>1234 Fictional Road</p>
-                    <p>Nashville, TN 00000</p>
-                    <p>(800) 555-0000</p>
-                </div>
+        <div class="col-3">
+            <h2 class="section__column--title">Random Stuff</h2>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+        </div>
+        <div class="col-3">
+            <h2 class="section__column--title">Random Stuff</h2>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+            <a class="footer__link" href="#">Lorem ipsum dolor</a>
+        </div>
+        <div class="col-3">
+            <h2 class="section__column--title">Random Stuff</h2>
+            <div class="footer__social">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
             </div>
-            <div class="row">
-                <p class="footer_copyright">© Untitled. All rights reserved | Design: HTML5 UP | Demo Images: Unsplash</p>
-            </div>
-        </footer>
-    </div> <!-- e: container -->
+            <p>1234 Fictional Road</p>
+            <p>Nashville, TN 00000</p>
+            <p>(800) 555-0000</p>
+        </div>
+    </div>
+    <div class="row">
+        <p class="footer_copyright">© Untitled. All rights reserved | Design: HTML5 UP | Demo Images: Unsplash</p>
+    </div>
+</footer>
+<!-- e: footer -->
 </body>
 </html>

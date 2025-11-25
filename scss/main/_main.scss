@@ -1,0 +1,16 @@
+@use "../variables/general";
+
+main {
+  background-color: general.$white-color;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 5px #0000000d;
+  .col-4 .container {
+    width: 100%;
+  }
+  img { border-radius: 10px;}
+  h2 { margin-bottom: 20px; font-size: 2.25em;}
+  .col-8 h2 { font-size: 2.25em; }
+  p { line-height: 2.5em; margin-bottom: 20px; color: general.$text-color;}
+  a { color: general.$secondary-color; }
+}
