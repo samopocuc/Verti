@@ -1,10 +1,12 @@
 @use "../../variables/general";
 @use "../../mixins/mixins";
+@use "../common/typography";
 @use "../header/header";
 @use "../banner/banner";
 @use "../common/buttons";
 @use "../common/common";
 @use "../blog/blog";
+@use "../footer/footer";
 body {
   font-family: general.$primary-font ;
   background-color: general.$background-color;

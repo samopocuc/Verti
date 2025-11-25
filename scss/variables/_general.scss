@@ -1,4 +1,4 @@
-$desktop: "only screen and (min-width: 1201px) and (max-width: 1600px)";
+$desktop: "only screen and (min-width: 1201px)";
 $tablet: "only screen and (min-width: 981px) and (max-width: 1200px)";
 $tablet-portrait: "only screen and (min-width: 1px) and (max-width: 980px)";
 $mobile: "only screen and (max-width: 650px)";
@@ -9,6 +9,9 @@ $text-color: #696969;
 $background-color: #E4E4E4;
 $logo-color: #FC4887;
 $white-color: #FFFFFF;
+$icon-color: #222222;
+$icon-background-color: #f3f3f3;
+$copy-color: #aaa;
 $primary-font: 'Open Sans', sans-serif;
 $secondary-font: 'Oleo Script', cursive, sans-serif;
 $container-width: 1400px;
